@@ -1,6 +1,6 @@
 # masterfiltmodel : Modelling of the 8 "master key filters" in ConvNeXt V2 networks using idealized scale-space filters
 
-Based on the "master key filter hypothesis" proposed by Babaiee et al. (2025), according to which the learned filters in the ConvNeXt architecture can be replaced by a set of 8 "master key filters" with only a marginal decrease in accuracy, we have taken this idea one step further, by replacing the 8 "master key filters" with a set of 8 idealized discrete scale-space filters, and demonstrated that such an abstraction can again be performed with again an only marginal decrease in accuracy.
+Based on the "master key filter hypothesis" proposed by Babaiee et al. (2025), according to which the learned filters in the ConvNeXt V2 Tiny architecture can be replaced by a set of 8 "master key filters" with only a marginal decrease in accuracy, we have taken this idea one step further, by replacing the 8 "master key filters" with a set of 8 idealized discrete scale-space filters, and demonstrated that such an abstraction can again be performed with again an only marginal decrease in accuracy.
 
 These results thus show that  the learned filters in the depthwise-separable deep networks based on the ConvNeXt V2 Tiny architecture can be well approximated by discrete scale-space filters. 
 
