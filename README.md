@@ -24,3 +24,9 @@ idealized receptive fields based on scale-space theory”, Journal of Mathematic
 Z. Babaiee, P. Kiasari, D. Rus, and R. Grosu (2025) "The master key filters hypothesis: Deep filters are general", AAAI Conference on Artificial Intelligence. 
 ([preprint](https://doi.org/10.48550/arXiv.2412.16751)) 
 
+Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T. & Xie, S. (2022), A ConvNet for the 2020s, in ‘Proc. Computer Vision and Pattern Recognition (CVPR 2022)’, pp. 11976–11986.
+([OpenAccess](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_A_ConvNet_for_the_2020s_CVPR_2022_paper.pdf))
+
+Woo, S., Debnath, S., Hu, R., Chen, X., Liu, Z., Kweon, I. S. & Xie, S. (2023), ConvNeXt V2: Co-designing and scaling ConvNets with masked autoencoders, in ‘Computer Vision and Pattern Recognition (CVPR 2023)’.
+([OpenAccess](https://openaccess.thecvf.com/content/CVPR2023/papers/Woo_ConvNeXt_V2_Co-Designing_and_Scaling_ConvNets_With_Masked_Autoencoders_CVPR_2023_paper.pdf))
+
