@@ -18,6 +18,9 @@ deep networks constructed by replacing the learned filters in the ConvNeXt V2 Ti
 
 T. Lindeberg, Z. Babaiee and P. Kiasari (2026) “Modelling and analysis of the 8 filters from
 the ’master key filters hypothesis’ for depthwise-separable deep networks in relation to
-idealized receptive fields based on scale-space theory”, Journal of Mathematical Imaging and Vision, to appear, preprint at arXiv:2509.12746.
+idealized receptive fields based on scale-space theory”, Journal of Mathematical Imaging and Vision, to appear. 
+([preprint](https://doi.org/10.48550/arXiv.2509.12746))
 
-Z. Babaiee, P. Kiasari, D. Rus, and R. Grosu (2025) "The master key filters hypothesis: Deep filters are general", AAAI Conference on Artificial Intelligence, preprint at arXiv:2412.16751.
+Z. Babaiee, P. Kiasari, D. Rus, and R. Grosu (2025) "The master key filters hypothesis: Deep filters are general", AAAI Conference on Artificial Intelligence. 
+([preprint](https://doi.org/10.48550/arXiv.2412.16751)) 
+
