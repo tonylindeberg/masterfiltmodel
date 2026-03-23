@@ -1,6 +1,6 @@
 #  Modelling the 8 ”master key filters” derived from the ConvNeXt V2 architecture with idealized discrete scale-space filters
 
-The Jupyter notebooks [keyfilteranal.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal.ipynb) and [keyfilteranal-x1.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal-x1.ipynb) contain the Python code that was used for:
+The Jupyter notebooks [keyfilteranal.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal.ipynb) and [keyfilteranal-x1.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal-x1.ipynb) contain the Python commands that were used for:
 
 * computing the statistical measures of characteristic properties of the 8 ”master key filters” in Section 3, and</li>
 
