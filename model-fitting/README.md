@@ -1,6 +1,6 @@
 #  Modelling the 8 ”master key filters” with idealized discrete scale-space filters
 
-The Jupyter notebooks ([keyfilteranal.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal.ipynb)) and ([keyfilteranal-x1.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal-x1.ipynb)) contain the Python code that was used for :
+The Jupyter notebooks [keyfilteranal.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal.ipynb) and [keyfilteranal-x1.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/keyfilteranal-x1.ipynb) contain the Python code that was used for :
 <ul>
 <li> computing the statistical measures of characteristic properties of the 8 ”master key filters” in Section 3, and</li>
 <li> computing the filter parameters for the corresponding discrete scale-space filters that are proposed as idealized models of the ”master key filters” in Section 4</li>
