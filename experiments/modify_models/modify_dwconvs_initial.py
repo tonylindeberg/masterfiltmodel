@@ -2,18 +2,17 @@ import argparse
 import copy
 import numpy as np
 import torch
-import autoencoder_complex as aue
 from data_tools.normalization import normalize
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-autoencoder_path = os.path.join(script_dir, 'Models', 'backup', 'autoencoder_k7.pth')
 
 parser = argparse.ArgumentParser(description='Process model parameters.')
 parser.add_argument('--model_type', type=str, required=False, help='Model type', default='convnextv2')
 parser.add_argument('--trained_model_path', type=str, required=False, help='Path to the model file', default='/home/gpude06/pretrained/convnextv2_tiny_1k_224_ema.pt')
 parser.add_argument('--model_path', type=str, required=False, help='Path to the model file', default='/home/gpude06/pretrained/convnextv2_tiny_1k_224_fcmae.pt')
 parser.add_argument('--modified_model_path', type=str, required=False, help='Path to save the modified model', default='/home/gpude06/pretrained/convnextv2_tiny_1k_224_fcmae_methodB.pt')
+parser.add_argument('--method', type=str, required=False, help='Mathematical method for modelling the Master Key Filters', default='B')
 
 args = parser.parse_args()
 
@@ -211,7 +210,7 @@ def generate_filters(method='A', gamma7=0.5, size=7):
             (0.642, 0.424),  # Filter 4
             (1.075, 0.800),  # Filter 5
             (0.771, 1.003),  # Filter 6
-            (0.675, 0.675),  # Filter 7 (using D2 value as a substitute)
+            (0.675, 0.675),  # Filter 7 
             (0.552, 0.545)   # Filter 8
         ]
     elif method == 'B':
@@ -222,7 +221,7 @@ def generate_filters(method='A', gamma7=0.5, size=7):
             (0.756, 0.460),  # Filter 4
             (1.107, 0.945),  # Filter 5
             (0.900, 0.889),  # Filter 6
-            (0.675, 0.675),  # Filter 7 (using D2 value as a substitute)
+            (0.675, 0.675),  # Filter 7 
             (0.609, 0.601)   # Filter 8
         ]
     elif method == 'C1':
@@ -233,7 +232,7 @@ def generate_filters(method='A', gamma7=0.5, size=7):
             (0.563, 0.384),  # Filter 4
             (1.309, 0.875),  # Filter 5
             (0.973, 1.171),  # Filter 6
-            (0.654, 0.654),  # Filter 7 (using C2 value)
+            (0.654, 0.654),  # Filter 7 
             (0.637, 0.587)   # Filter 8
         ]
     elif method == 'C2':
@@ -252,10 +251,10 @@ def generate_filters(method='A', gamma7=0.5, size=7):
             (0.491, 0.722),  # Filter 1
             (0.581, 0.519),  # Filter 2
             (0.483, 0.503),  # Filter 3
-            (0.500, 0.000),  # Filter 4 (note: one value is 0!)
+            (0.500, 0.000),  # Filter 4 
             (1.300, 1.004),  # Filter 5
             (0.984, 1.074),  # Filter 6
-            (0.675, 0.675),  # Filter 7 (using D2 value as a substitute)
+            (0.675, 0.675),  # Filter 7 
             (0.615, 0.608)   # Filter 8
         ]
     elif method == 'D2':
@@ -312,7 +311,7 @@ def generate_filters(method='A', gamma7=0.5, size=7):
 
 
 # for method in ['A', 'B', 'C1', 'C2', 'D1', 'D2']:
-filters = generate_filters(method='B')
+filters = generate_filters(method=args.method)
 
 #candidate_filters = torch.tensor(filters, dtype=torch.float32).view(8, 49)
 candidate_filters = torch.stack(filters).float().view(8, 49)
