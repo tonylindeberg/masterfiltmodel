@@ -16,4 +16,4 @@ The Python file [filteranal.py](https://github.com/tonylindeberg/masterfiltmodel
 <p>
 Beyond standard library functions, this code depends on the pyscsp library available from GitHub at https://github.com/tonylindeberg/pyscsp or via PyPi: ”pip install pyscsp”.
 <p>
-Please, note, however, that this code has not been refactored into a fully automated processing chain. Instead, the original code used for the model fitting underlying the article is provided here.
+Please, note, however, that this code has not been refactored into a fully automated processing chain. Instead, the original code used for the model fitting underlying the article is provided.
