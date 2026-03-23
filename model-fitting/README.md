@@ -11,7 +11,7 @@ in the following paper:
 
 * Lindeberg, Babaiee and Kiasari (2025) "Modelling and analysis of the 8 filters from the 'master key filters hypothesis' for depthwise-separable deep networks in relation to idealized receptive fields based on scale-space theory", Journal of Mathematical Imaging and Vision, to appear, [preprint at arXiv: 2509.12746](https://doi.org/10.48550/arXiv.2509.12746).
 
-The Python file [filteranal.ipynb](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/filteranal.ipynb) contains a set of library functions used in the Jupyter notebooks.
+The Python file [filteranal.py](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/filteranal.py) contains a set of library functions used in the Jupyter notebooks.
 
 <p>
 Beyond standard library functions, this code depends on the pyscsp library available from GitHub at https://github.com/tonylindeberg/pyscsp or via PyPi: ”pip install pyscsp”.
