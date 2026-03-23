@@ -6,6 +6,7 @@ The Jupyter notebooks <> and <> contain the Python code that was used for :
 <li> computing the filter parameters for the corresponding discrete scale-space filters that are proposed as idealized models of the ”master key filters” in Section 4</li>
 </ul>
 in the following paper:
+<p>
 <ul>
 <li> Lindeberg, Babaiee and Kiasari (2025) "Modelling and analysis of the 8 filters from the 'master key filters hypothesis' for depthwise-separable deep networks in relation to idealized receptive fields based on scale-space theory", Journal of Mathematical Imaging and Vision, to appear, preprint at arXiv:2509.12746.</li>
 </ul>
