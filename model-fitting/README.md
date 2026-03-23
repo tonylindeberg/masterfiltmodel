@@ -12,6 +12,6 @@ in the following paper:
 </ul>
 The Python file filteranal.py contains a set of library functions used in the Jupyter notebooks.
 <p>
-Beyond standard library functions, this code depends on the pyscsp library available from GitHub at ([https://github.com/tonylindeberg/pyscsp])(https://github.com/tonylindeberg/pyscsp) or via PyPi: ”pip install pyscsp”.
+Beyond standard library functions, this code depends on the pyscsp library available from GitHub at https://github.com/tonylindeberg/pyscsp or via PyPi: ”pip install pyscsp”.
 <p>
 Please, note, however, that this code has not been refactored into a fully automated processing chain. Instead, the original code used for the model fitting underlying the article is provided here.
