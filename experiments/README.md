@@ -5,7 +5,7 @@ This repo includes two training scripts for ConvNeXtV2 after replacing depthwise
 - `main_finetune.py` fine-tunes a modified ConvNeXtV2 model while **freezing depthwise convolution filters**. (See `modify_models`for how to modify a model's depthwise filters to Madter Key Filters)
 - `main_finetune_scale_learn.py` fine-tunes a modeled ConvNeXtV2 model while **learning the scale parameters** of the mathematical depthwise filters.
 
-Both scripts are intended for ImageNet fine-tuning from FCMAE-pretrained checkpoints.
+Both scripts are intended for ImageNet fine-tuning from **FCMAE** (Fully Convolutional Masked Autoencoder) pretrained checkpoints. These checkpoints were obtained from the official [ConvNeXt V2 repository](https://github.com/facebookresearch/ConvNeXt-V2).
 
 ## Training modes
 
