@@ -2,8 +2,8 @@
 
 This script modifies a ConvNeXtV2 model by replacing its depthwise convolution filters with the best-fitting **Master Key filters**.
 
-The Master Key filters are mathematically derived from the methods introduced in the paper "Modeling and Analysis of the 8 Filters from the “Master Key Filters
-Hypothesis” for Depthwise-Separable Deep Networks in Relation to Idealized Receptive Fields Based on Scale-Space Theory", with **Method B** used by default. The script compares filters from a **trained model** against the predefined Master Key filters, then applies the best-fit estimates to an **FCMAE-pretrained ConvNeXtV2 model**. Pretrained checkpoints can be directly downloaded from the official [ConvNeXt V2 repository](https://github.com/facebookresearch/ConvNeXt-V2).
+The Master Key filters are mathematically derived from the methods introduced in the paper *"Modeling and Analysis of the 8 Filters from the “Master Key Filters
+Hypothesis”* for Depthwise-Separable Deep Networks in Relation to Idealized Receptive Fields Based on Scale-Space Theory", with **Method B** used by default. The script compares filters from a **trained model** against the predefined Master Key filters, then applies the best-fit estimates to an **FCMAE-pretrained ConvNeXtV2 model**. Pretrained checkpoints can be directly downloaded from the official [ConvNeXt V2 repository](https://github.com/facebookresearch/ConvNeXt-V2).
 
 ## What it does
 
