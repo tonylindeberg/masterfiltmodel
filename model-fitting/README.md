@@ -8,7 +8,9 @@ The Jupyter notebooks [keyfilteranal.ipynb](https://github.com/tonylindeberg/mas
 
 in the following paper:
 
-* Lindeberg, Babaiee and Kiasari (2026) "Modelling and analysis of the 8 filters from the 'master key filters hypothesis' for depthwise-separable deep networks in relation to idealized receptive fields based on scale-space theory", Journal of Mathematical Imaging and Vision, to appear, [preprint at arXiv:2509.12746](https://doi.org/10.48550/arXiv.2509.12746).
+* Lindeberg, Babaiee and Kiasari (2026) "Modelling and analysis of the 8 filters from the 'master key filters hypothesis' for depthwise-separable deep networks in relation to idealized receptive fields based on scale-space theory", 
+Journal of Mathematical Imaging and Vision, 68(3), 22:1-22:26.
+([OpenAccess](https://doi.org/10.1007/s10851-026-01290-0))
 
 The Python file [filteranal.py](https://github.com/tonylindeberg/masterfiltmodel/blob/main/model-fitting/filteranal.py) contains a set of library functions used in the Jupyter notebooks.
 
